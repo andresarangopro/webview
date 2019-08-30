@@ -27,8 +27,8 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(true);
 
         // REMOTE RESOURCE
-        // mWebView.loadUrl("http://example.com");
-        // mWebView.setWebViewClient(new MyWebViewClient());
+         mWebView.loadUrl("https://linkstaging.wenjoy.com.co/checkout/participate?purchase_id=20190830102032781");
+         mWebView.setWebViewClient(new MyWebViewClient());
 
         // LOCAL RESOURCE
         // mWebView.loadUrl("file:///android_asset/index.html");
